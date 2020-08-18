@@ -13,6 +13,41 @@
   justify-content: start;
 }
 
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: fill;
+  border: none;
+  margin-top: 10px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .collapsible{
+    margin-top: 10px;
+  }
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsiblecontent p{
+  margin-top: 10px;
+}
+.collapsiblecontent {
+  padding: 0 18px;
+  max-height: 0;
+  display:none;
+  overflow: hidden;
+  transition: max-height 0.7s ease-out;
+  background-color: #f1f1f1;
+}
+
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -2062,7 +2097,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_4 {
-  background-image: url(../img/logo11.png);
+  background-image: url(../img/blog/banner.jpg);
 }
 
 /* line 13, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_bradcam.scss */
