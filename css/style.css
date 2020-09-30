@@ -920,14 +920,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 17, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 30px 20px;
+    padding: 10px 20px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 17, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .main-header-area {
-    padding: 30px 20px;
+    padding: 10px ;
   }
 }
 
@@ -1141,7 +1141,7 @@ h3 {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  top: -70px;
+  top: -80px;
   left: 0;
   right: 0;
   z-index: 990;
@@ -2138,7 +2138,7 @@ h3 {
 }
 
 /* line 37, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_bradcam.scss */
-.bradcam_area h3 {
+.bradcam_area h3,h1{
   font-size: 80px;
   color: #fff;
   font-weight: 500;
